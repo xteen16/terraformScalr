@@ -12,7 +12,7 @@ variable "vpc_cidr" {
 }
 
 variable "tag" {
-  default     = "terraformScalr"
+  default     = "scalrDocument"
 }
 
 resource "aws_vpc" "main" {
